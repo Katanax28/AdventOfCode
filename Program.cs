@@ -1,4 +1,6 @@
-﻿Console.WriteLine("2025:");
+﻿using System;
+
+Console.WriteLine("2025:");
 WriteSolution(day1_1.Solve, 1, 1);
 WriteSolution(day1_2.Solve, 1, 2);
 return;

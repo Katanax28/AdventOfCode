@@ -1,3 +1,6 @@
+using System;
+using System.IO;
+
 public static class day1_1 {
     public static int Solve()
     {

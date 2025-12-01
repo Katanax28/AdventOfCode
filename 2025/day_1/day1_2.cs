@@ -1,3 +1,6 @@
+using System;
+using System.IO;
+
 public static class day1_2
 {
     public static int Solve()
@@ -21,18 +24,7 @@ public static class day1_2
                 dial = (dial - rotations + 1000) % 100;
             }
         }
+
         return result;
     }
 }
-
-// if (line[0] == 'R')
-// {
-//     result += dial / 100;
-//     dial %= 100;
-// }
-// else
-// {
-//     dial -= rotations;
-//     result -= dial / 100;
-//     dial = dial % 100 + 100;
-// }

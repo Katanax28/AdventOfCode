@@ -37,8 +37,9 @@
                     secondBattery = batteryLevel;
                     firstBattery = temp;
                 }
+                Console.WriteLine($"{firstBattery}, {secondBattery}");
+                
             }
-            Console.WriteLine($"{firstBattery}, {secondBattery}");
 
             totalJoltage += 10 * firstBattery + secondBattery;
         }

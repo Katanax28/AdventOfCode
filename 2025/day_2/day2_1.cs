@@ -1,6 +1,3 @@
-using System;
-using System.IO;
-
 public static class day2_1 {
     public static long Solve()
     {
@@ -8,8 +5,8 @@ public static class day2_1 {
         long result = 0;
         foreach (var range in ranges)
         {
-            long firstNumber = Int64.Parse(range.Split('-')[0]);
-            long lastNumber = Int64.Parse(range.Split('-')[1]);
+            long firstNumber = long.Parse(range.Split('-')[0]);
+            long lastNumber = long.Parse(range.Split('-')[1]);
             
             for (long i = firstNumber; i <= lastNumber; i++)
             {

@@ -1,6 +1,3 @@
-using System;
-using System.IO;
-
 public static class day1_2
 {
     public static int Solve()
@@ -10,7 +7,7 @@ public static class day1_2
         int result = 0;
         foreach (var line in lines)
         {
-            int rotations = Int32.Parse(line.AsSpan(1));
+            int rotations = int.Parse(line.AsSpan(1));
             if (line[0] == 'R')
             {
                 dial += rotations;

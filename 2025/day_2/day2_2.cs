@@ -1,6 +1,3 @@
-using System;
-using System.IO;
-
 public static class day2_2
 {
     public static long Solve()

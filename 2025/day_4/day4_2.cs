@@ -36,8 +36,7 @@ public class day4_2
 
         if (adjacentPaper >= 4) return 0;
         
-        StringBuilder sb = new StringBuilder(Grid[_y]);
-        sb[_x] = '.';
+        StringBuilder sb = new StringBuilder(Grid[_y]) { [_x] = '.' };
         Grid[_y] = sb.ToString();
 
         int resultPaper = 0;

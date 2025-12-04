@@ -8,6 +8,7 @@ WriteSolution(day1_2.Solve, 1, 2);
 WriteSolution(day2_1.Solve, 2, 1);
 WriteSolution(day2_2.Solve, 2, 2);
 WriteSolution(day3_1.Solve, 3, 1);
+WriteSolution(day3_2.Solve, 3, 2);
 
 return;
 

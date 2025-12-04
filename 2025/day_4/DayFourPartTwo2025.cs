@@ -1,6 +1,6 @@
 using System.Text;
 
-public class day4_2
+public class DayFourPartTwo2025
 {
     private static readonly string[] Grid = File.ReadAllLines("./2025/day_4/input.txt");
     private static int _totalPaper;

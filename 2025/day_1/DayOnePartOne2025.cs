@@ -1,4 +1,4 @@
-public static class day1_1 {
+public static class DayOnePartOne2025 {
     public static int Solve()
     {
         var lines = File.ReadAllLines("./2025/day_1/input.txt");

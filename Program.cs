@@ -1,16 +1,16 @@
 ﻿using System;
 Console.WriteLine("First run of the command is always slower, so here a first 'warmup' solution:");
-WriteSolution(day1_1.Solve, 1, 1);
+WriteSolution(DayOnePartOne2025.Solve, 1, 1);
 
 Console.WriteLine("2025:");
-WriteSolution(day1_1.Solve, 1, 1);
-WriteSolution(day1_2.Solve, 1, 2);
-WriteSolution(day2_1.Solve, 2, 1);
-WriteSolution(day2_2.Solve, 2, 2);
-WriteSolution(day3_1.Solve, 3, 1);
-WriteSolution(day3_2.Solve, 3, 2);
-WriteSolution(day4_1.Solve, 4, 1);
-WriteSolution(day4_2.Solve, 4, 2);
+WriteSolution(DayOnePartOne2025.Solve, 1, 1);
+WriteSolution(DayOnePartTwo2025.Solve, 1, 2);
+WriteSolution(DayTwoPartOne2025.Solve, 2, 1);
+WriteSolution(DayTwoPartTwo2025.Solve, 2, 2);
+WriteSolution(DayThreePartOne2025.Solve, 3, 1);
+WriteSolution(DayThreePartTwo2025.Solve, 3, 2);
+WriteSolution(DayFourPartOne2025.Solve, 4, 1);
+WriteSolution(DayFourPartTwo2025.Solve, 4, 2);
 
 return;
 

@@ -1,4 +1,4 @@
-public class day3_2
+public class DayThreePartTwo2025
 {
     public static long Solve()
     {

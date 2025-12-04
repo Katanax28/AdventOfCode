@@ -1,4 +1,4 @@
-public static class day2_1 {
+public static class DayTwoPartOne2025 {
     public static long Solve()
     {
         var ranges = File.ReadAllText("./2025/day_2/input.txt").Split(',');

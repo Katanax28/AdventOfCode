@@ -1,4 +1,4 @@
-﻿public class day3_1
+﻿public class DayThreePartOne2025
 {
     public static int Solve()
     {

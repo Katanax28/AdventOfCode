@@ -16,7 +16,6 @@ public class DayFivePartTwo2025
 
         for (int i = 0; i < rangesAsTuples.Count; i++)
         {
-            List<int> deleteList = [];
             for (int j = 0; j < rangesAsTuples.Count && i < rangesAsTuples.Count; j++)
             {
                 if(i == j) continue;

@@ -13,6 +13,8 @@ WriteSolution(DayFourPartOne2025.Solve, 4, 1);
 WriteSolution(DayFourPartTwo2025.Solve, 4, 2);
 WriteSolution(DayFivePartOne2025.Solve, 5, 1);
 WriteSolution(DayFivePartTwo2025.Solve, 5, 2);
+WriteSolution(DaySixPartOne2025.Solve, 6, 1);
+WriteSolution(DaySixPartTwo2025.Solve, 6, 2);
 
 
 return;

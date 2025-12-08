@@ -17,6 +17,9 @@ WriteSolution(DaySixPartOne2025.Solve);
 WriteSolution(DaySixPartTwo2025.Solve);
 WriteSolution(DaySevenPartOne2025.Solve);
 WriteSolution(DaySevenPartTwo2025.Solve);
+WriteSolution(DayEightPartOne2025.Solve);
+WriteSolution(DayEightPartTwo2025.Solve);
+
 return;
 
 void WriteSolution<T>(Func<T> func)

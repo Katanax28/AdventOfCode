@@ -21,6 +21,7 @@ WriteSolution(DayEightPartOne2025.Solve);
 WriteSolution(DayEightPartTwo2025.Solve);
 WriteSolution(DayNinePartOne2025.Solve);
 WriteSolution(DayNinePartTwo2025.Solve);
+WriteSolution(DayTenPartOne2025.Solve);
 
 return;
 
